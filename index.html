@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Elyas Ahmadi, Computer Science student at the University of Liverpool.">
+  <title>Elyas Ahmadi | Academic Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">Elyas Ahmadi</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#interests">Interests</a>
+      <a href="#projects">Projects</a><a href="#writing">Writing</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">ACADEMIC PROFILE</p>
+      <h1>Elyas Ahmadi</h1>
+      <p class="subtitle">Computer Science student · University of Liverpool</p>
+      <p class="intro">I am a Computer Science student interested in understanding how ideas in computing work, from their mathematical foundations to practical implementations.</p>
+      <a class="button" href="#projects">View projects</a>
+      <a class="text-link" href="https://github.com/ely4s-4hmadi">GitHub profile ↗</a>
+    </section>
+    <section class="content-section" id="about">
+      <p class="eyebrow">01 / ABOUT</p><h2>A little about me</h2>
+      <p>I study Computer Science at the University of Liverpool. I use this website to share selected projects, academic work and things I am learning. This introduction is a starting draft and can be replaced with a more personal biography.</p>
+    </section>
+    <section class="content-section" id="interests">
+      <p class="eyebrow">02 / RESEARCH INTERESTS</p><h2>Topics I am exploring</h2>
+      <div class="tag-list"><span>Artificial intelligence</span><span>Machine learning</span><span>Artificial neural networks</span><span>Mathematical foundations of computing</span></div>
+    </section>
+    <section class="content-section" id="projects">
+      <p class="eyebrow">03 / SELECTED PROJECTS</p><h2>Projects</h2>
+      <article class="project">
+        <div class="project-meta">MATHEMATICS · MACHINE LEARNING</div>
+        <h3>Forward Propagation and Backpropagation in Artificial Neural Networks</h3>
+        <p>A mathematical exposition of feedforward neural networks, including forward propagation, loss functions, gradient descent and backpropagation, supported by a numerical example and a Python experiment comparing learning rates.</p>
+        <a href="https://github.com/ely4s-4hmadi/ann-forward-propagation-backpropagation">View source code ↗</a>
+      </article>
+    </section>
+    <section class="content-section" id="writing">
+      <p class="eyebrow">04 / ACADEMIC WRITING</p><h2>Writing and publications</h2>
+      <p>My paper on the mathematical principles behind neural-network training is currently being developed. A publication or preprint link can be added here once it is publicly available.</p>
+    </section>
+    <section class="content-section" id="contact">
+      <p class="eyebrow">05 / CONTACT</p><h2>Get in touch</h2>
+      <p>The best way to find my coding projects is through GitHub. A professional email address can be added here when you are ready to publish it.</p>
+      <a href="https://github.com/ely4s-4hmadi">github.com/ely4s-4hmadi ↗</a>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Elyas Ahmadi</span><span>Built with HTML and CSS · Hosted with GitHub Pages</span></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
